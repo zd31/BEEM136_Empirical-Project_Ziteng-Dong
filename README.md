@@ -10,31 +10,30 @@ decision-making.
 
 ## Project Structure
 ```
-├── README.md                  # Project documentation
-├── Project_Paper.pdf          # Project paper
-├── Codes/                     # All codes
-│   ├── 1_Data_Clean.do         # Data cleaning and preparation
-│   ├── 2_Figures.do            # Figure generation
-│   └── 3_Tables.do             # Regression tables and statistics
-├── Data/                      # All data files
-│   ├── Data_Raw/               # Original raw data
-│   │   └── data_raw.csv
-│   └── Data_Cleaned/           # Processed and cleaned data
-│       └── Cleaned_Working_Data.dta
-├── Output/                    # Generated outputs
-│   ├── Output_Figures/         # Figures
-│   |    ├── Figure_1_switching_point_diff.png
-│   |    ├── Figure_2_fractional_polynomial.png
-│   |    ├── Figure_3_cdf_1visit.png
-|   |    └── Figure_4_cdf_2visit.png
-│   └── Output_Tables/          # Tables and regression outputs
-│       ├── regr_c5.tex
-│       ├── regr_c6.tex
-│       ├── regression_tables1.tex
-│       ├── regression_tables2.tex
-│       └──
-└── Reference/                 # Bibliographic sources
-    └── bibliography.bib
+-README.md                   # Project documentation
+-Project_Paper.pdf           # Project paper
+-Codes/                      # All codes
+    --1_Data_Clean.do             # Data cleaning and preparation
+    --2_Figures.do                # Figure generation
+    --3_Tables.do                 # Regression tables and statistics
+-Data/                       # All data files
+    --Data_Raw/                   # Original raw data
+        ---data_raw.csv
+    --Data_Cleaned/               # Processed and cleaned data
+        ---Cleaned_Working_Data.dta
+-Output/                     # Generated outputs
+    --Output_Figures/             # Figures
+        ---Figure_1_switching_point_diff.png
+        ---Figure_2_fractional_polynomial.png
+        ---Figure_3_cdf_1visit.png
+        ---Figure_4_cdf_2visit.png
+    --Output_Tables/              # Tables and regression outputs
+        ---regr_c5.tex
+        ---regr_c6.tex
+        ---regression_tables1.tex
+        ---regression_tables2.tex  
+-Reference/                  # Bibliographic sources
+    --bibliography.bib
 ```
 
 ## Data Description
